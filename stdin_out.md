@@ -134,4 +134,16 @@ This script collects essential system details and logs them for monitoring purpo
    ```sh
    chmod +x script_system_info.sh
 
+## Expected Output
+```sh
+Date: Wed Mar 13 12:00:00 UTC 2025
+Uptime: 5 days, 3:45
 
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda1      50G   20G   30G  40% /
+
+Memory Usage:
+             total        used        free      shared  buff/cache   available
+Mem:        8192MB      4096MB      2048MB       512MB      1536MB      5120MB
+```
