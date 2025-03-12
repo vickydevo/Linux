@@ -241,5 +241,5 @@ cat synchro/trainings/info.txt
 
 ---
 
-[YouTube Reference](https://www.youtube.com/watch?v=LpgQDfWOYCY)
+
 
