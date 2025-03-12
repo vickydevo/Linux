@@ -115,6 +115,23 @@ This prevents the command from displaying any output.
 
 ---
 
-## **Conclusion**
-This guide covers essential Linux file handling and redirection commands, providing efficient ways to manage files and handle outputs effectively.
+# System Information Logging Script
+
+## Task: Log System Information and Errors
+
+### Description
+This script collects essential system details and logs them for monitoring purposes. It performs the following tasks:
+
+- Retrieves the **current date and time**.
+- Captures **system uptime**.
+- Logs **disk usage statistics**.
+- Records **memory usage details**.
+- Redirects standard output (system information) to a file named **`system_info.log`**.
+- Captures any errors separately in **`error.log`**.
+
+### Usage
+1. Ensure you have execution permissions for the script:
+   ```sh
+   chmod +x script_system_info.sh
+
 
